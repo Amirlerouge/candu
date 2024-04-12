@@ -1,0 +1,231 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Lexend';
+  }
+
+  .link {
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    --tw-shadow: 4px 4px 0 #000;
+    --tw-shadow-colored: 4px 4px 0 var(--tw-shadow-color);
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+    border-color: var(--color-high-contrast);
+    border-radius: .25rem;
+    border-width: 2px;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    box-shadow: 4px 4px 0 rgb(var(--color-high-contrast));
+    color: rgba(0, 0, 0, var(--tw-text-opacity));
+    cursor: pointer;
+    display: block;
+    font-family: ClashDisplay-Variable, ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 16px 48px;
+    transition-duration: .15s;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  
+@media (hover: hover) and (pointer: fine) {
+  .link:hover {
+    --tw-translate-x: 2px;
+    --tw-translate-y: 2px;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    transform: translate(2px, 2px) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
+
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  background-color: #f9f5f2;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+  border-radius: 23px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+header {
+    border-radius: 23px;
+    background-color: #9798ff;
+    box-shadow: 3px 3px 0 0 black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: black;
+    /* border-width: thick; */
+    /* border: solid; */
+    /* border-color: black; */
+    /* border-width: thick; */
+    /* border-top: 20px; */
+    /* border-left: 20px; */
+    /* border-top: 20px; */
+    /* border-left: 20px; */
+    /* box-shadow: 3px 3px 0 0 black; */
+    /* text-align:center; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: row; */
+  }
+  
+.btn{
+  box-shadow: aqua;
+  background: #fddd53;
+  color: #ff5f5f;
+  transition: box-shadow .25s cubic-bezier(.645,.045,.355,1), transform .25s cubic-bezier(.645,.045,.355,1);
+  margin: 25px 23px 25px 0px;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 23px;
+  box-shadow: 3px 3px 0 0 black;
+}
+
+
+body{
+  text-align:center;
+  border-radius: 23px;
+  background-color:#ffe7ca;
+}
+
+/*#5b8dfe*/
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(0.25turn,#9798ff, #ff5f5f); 
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p{
+color: rgb(69, 69, 69);
+}
+
+.btn:active {
+    top: 10px;
+    background-color: #F78900;
+
+    -webkit-box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+    -moz-box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+    box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+.btn:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    position: absolute;
+    bottom: -15px;
+    left: -4px;
+    z-index: -1;
+    background-color: #2B1800;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.btn:active {
+  top: 10px;
+  background-color: #F78900;
+
+  -webkit-box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+.btn:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  background-color: #2B1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.container-wide-navigation {
+  max-width: 1248px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+}
+.logo{
+font-weight: bold;
+  margin-right: auto;
+}
