@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brutalist Candu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Candu.ir</div>
+    <nav>
+        <a class="btn" input>Get Started</a>
+        <a class="btn" href="#">Creators</a>
+        <a  class="btn" href="#">About</a>
+        <a class="btn" href="#">Log In</a>
+    </nav>
+    <!--
+    <div class="search-bar">
+      <input type="text" placeholder="Search" class="btn">
+      <button>Search</button>
+    </div> -->
+  </header>
+
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>All you need to make money doing what you love</h1>
+      <p>Join 1M+ creators getting donations, memberships and sales from fans!
+
+      </p>
+
+      <form action="/my-handling-form-page" method="post"></form>
+        <input type="text" id="name" placeholder="Candu.ir/Username" name="user_name" class="btnlarge" />
+      <a href="#" class="btnlarge"> Join and Claim </a>
+
+      
+    </div>
+  </section>
+  <h1>Support Independent Creators</h1>
+  <p>Become a patron today and help creators bring their ideas to life.</p>
+
+
+  <!-- همه چیزی که برای پولدار شدن از کاری که دوست دارید نیاز دارید -->
+<!-- حمایت مالی برای کارهای خلاقانه‌تون فراهم کنید-->
+  <p>Join creators getting monthly memberships from their fans</p>
+  <!-- به سازندگانی بپیوندید که از طرفدارانشان عضویت‌های ماهیانه دریافت می‌نمایند. -->
+<p>Grow your income by opening your candu byoffering memberships.</p>
+<p>All from your single, beautiful Candu page</p>
+  <!--افزایش درآمد خود را با باز کردن کندوی خود از طریق ارائه عضویت‌ها بیاموزید. 
+
+همه این کارها از صفحه یکتا و زیبای کندوی شما انجام می‌شود.-->
+
+<p>Offer memberships Build a monthly income stream
+  
+  Let fans become exclusive members, supporting you monthly at different pricing tiers.
+  
+  Reward members with fun benefits like Discord roles, discounts, exclusive content or physical items.</p>
+  <!-- ارائه عضویت‌ها
+ایجاد جریان درآمد ماهانه
+اجازه دهید طرفداران به عنوان اعضای اختصاصی شما، شما را به صورت ماهیانه در سطوح قیمتی مختلف حمایت کنند.
+
+با امکانات جالبی مانند نقش‌های دیسکورد، تخفیف‌ها، محتوای اختصاصی یا موارد فیزیکی، اعضا را پاداش دهید.-->
+
+  
+  
+  
+
+<div class="dropdown wrap-collabsible">
+  <input type="checkbox">
+  <label for="question-1">What is Candu ?</label>
+   <div class="text">
+     <p>Candu is the easiest way for you to start making an income directly from your fans.</p>
+   </div>
+ </div>
+<div class="dropdown wrap-collabsible">
+  <input type="checkbox">
+  <label for="question-1">How much can I earn?</label>
+   <div class="text">
+     <p>Start making an income on Candu regardless of how big your audience is. Thousands of creators make their first money on Ko-fi and some have earned more than $100k in donations alone!</p>
+   </div>
+ </div>
+ <div class="dropdown wrap-collabsible">
+  <input type="checkbox">
+  <label for="question-1">Who should use Candu ?</label>
+   <div class="text">
+     <p>Artists, Streamers, Podcasters, Writers, Crafters, Photographers, Filmmakers, Cosplayers and all kinds of creators use Candu.
+    </p>
+   </div>
+ </div>
+ <div class="dropdown wrap-collabsible">
+  <input type="checkbox">
+  <label for="question-1">How do I get paid ?</label>
+   <div class="text">
+     <p>Instantly and directly into your bank account. We take 8% fees from subscriptions and we don't hold onto your money. It goes directly from your supporter to you. Simple!
+    </p>
+   </div>
+ </div>
+ <div class="dropdown wrap-collabsible">
+  <input type="checkbox">
+  <label for="question-1">How much does it cost ?</label>
+   <div class="text">
+     <p>Unlike pretty much everyone else, we don't take a cut from your donations! Premium features like Memberships, Ko-fi Shop and Commissions can either be paid for via a small subscription to Ko-fi Gold or a low 5% transaction fee. You decide.
+    </p>
+   </div>
+ </div>
+ <div class="dropdown wrap-collabsible">
+  <input type="checkbox">
+  <label for="question-1">How much can I earn ?</label>
+   <div class="text">
+     <p>Start making an income on Candu regardless of how big your audience is. Thousands of creators make their first money on Ko-fi and some have earned more than $100k in donations alone!</p>
+   </div>
+ </div>
+ <div class="dropdown wrap-collabsible">
+  <input type="checkbox">
+  <label for="question-1">How can I get in touch with you ?</label>
+   <div class="text">
+     <p>DM us on Twitter or Instagram, or ask us a question in the help centre.</p>
+   </div>
+ </div>
+
+
+ 
+
+  <section class="featured-creators">
+    <h2>Featured Creators</h2>
+    <div class="creator-card">
+      <div class="creator-img"></div>
+      <div class="creator-info">
+        <h3>Creator Name</h3>
+        <p>Description of creator's content.</p>
+        <a href="#">Support</a>
+      </div>
+    </div>
+    <!-- More creator cards here -->
+  </section>
+
+  <footer>
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Terms of Service</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="social-icons">
+      <a href="#"><img  alt="Facebook"></a>
+      <a href="#"><img  alt="Twitter"></a>
+      <a href="#"><img  alt="Instagram"></a>
+    </div>
+  </footer>
+</body>
+</html>
