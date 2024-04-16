@@ -321,3 +321,20 @@ padding: 13px;
 .dropdown input[type=checkbox]:checked ~ .text {
   max-height: 100px;
 }
+
+footer  {
+  margin: 1%;
+    border-radius: 23px;
+    background-color: #9798ff;
+    box-shadow: 3px 3px 0 0 black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: black;
+
+  }
+  .page-footer footer a {
+    padding: 10px;
+  }
